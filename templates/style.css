@@ -1,0 +1,321 @@
+.sign-up {
+  background-color: #002e48;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up .modal-wrapper {
+  background-color: #002e48;
+  width: 1920px;
+  height: 1080px;
+}
+
+.sign-up .modal {
+  position: relative;
+  width: 1600px;
+  height: 800px;
+  top: 140px;
+  left: 160px;
+  box-shadow: 0px 0px 48px #00000066;
+}
+
+.sign-up .overlap {
+  position: relative;
+  width: 1532px;
+  height: 800px;
+}
+
+.sign-up .group {
+  position: absolute;
+  width: 1532px;
+  height: 800px;
+  top: 0;
+  left: 0;
+}
+
+.sign-up .rectangle {
+  position: absolute;
+  width: 1000px;
+  height: 800px;
+  top: 0;
+  left: 0;
+  background-color: #cedde6;
+  border-radius: 32px 0px 0px 32px;
+}
+
+.sign-up .image {
+  position: absolute;
+  width: 532px;
+  height: 800px;
+  top: 0;
+  left: 1000px;
+  object-fit: cover;
+}
+
+.sign-up .greeting {
+  position: absolute;
+  top: 49px;
+  left: 1074px;
+  font-family: "Rubik-Bold", Helvetica;
+  font-weight: 700;
+  color: #646464;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.sign-up .div {
+  position: absolute;
+  width: 601px;
+  height: 598px;
+  top: 104px;
+  left: 199px;
+}
+
+.sign-up .group-2 {
+  position: absolute;
+  width: 603px;
+  height: 494px;
+  top: 0;
+  left: 0;
+}
+
+.sign-up .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 165px;
+  font-family: "Rubik-Bold", Helvetica;
+  font-weight: 700;
+  color: #004f7c;
+  font-size: 52px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.sign-up .group-3 {
+  position: absolute;
+  width: 601px;
+  height: 357px;
+  top: 102px;
+  left: 0;
+}
+
+.sign-up .phone {
+  position: absolute;
+  width: 600px;
+  height: 72px;
+  top: 192px;
+  left: 1px;
+  background-color: #ffffff;
+  border-radius: 48px;
+}
+
+.sign-up .eye-off {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 24px;
+  left: 544px;
+}
+
+.sign-up .group-4 {
+  position: absolute;
+  width: 94px;
+  height: 24px;
+  top: 24px;
+  left: 32px;
+}
+
+.sign-up .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #004f7c;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.sign-up .img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.sign-up .mail {
+  position: absolute;
+  width: 600px;
+  height: 72px;
+  top: 96px;
+  left: 1px;
+  background-color: #ffffff;
+  border-radius: 48px;
+}
+
+.sign-up .group-5 {
+  position: relative;
+  width: 85px;
+  height: 24px;
+  top: 24px;
+  left: 32px;
+}
+
+.sign-up .name {
+  position: absolute;
+  width: 600px;
+  height: 72px;
+  top: 0;
+  left: 1px;
+  background-color: #ffffff;
+  border-radius: 48px;
+}
+
+.sign-up .group-6 {
+  position: relative;
+  width: 88px;
+  height: 24px;
+  top: 24px;
+  left: 32px;
+}
+
+.sign-up .price {
+  position: absolute;
+  width: 600px;
+  height: 72px;
+  top: 285px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 48px;
+}
+
+.sign-up .group-7 {
+  position: absolute;
+  width: 82px;
+  height: 24px;
+  top: 24px;
+  left: 32px;
+}
+
+.sign-up .group-8 {
+  position: absolute;
+  width: 450px;
+  height: 25px;
+  top: 469px;
+  left: 87px;
+}
+
+.sign-up .i-ve-read-and-agree {
+  position: absolute;
+  top: 1px;
+  left: 41px;
+  font-family: "Rubik-Light", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.sign-up .span {
+  font-weight: 300;
+  color: #004f7c;
+}
+
+.sign-up .text-wrapper-3 {
+  font-family: "Rubik-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+}
+
+.sign-up .ellipse-wrapper {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  left: 0;
+  background-color: #004f7c33;
+  border-radius: 12.5px;
+}
+
+.sign-up .ellipse {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  top: 6px;
+  left: 6px;
+  background-color: #004f7c;
+  border-radius: 6.5px;
+}
+
+.sign-up .group-wrapper {
+  position: absolute;
+  width: 250px;
+  height: 64px;
+  top: 534px;
+  left: 176px;
+}
+
+.sign-up .overlap-group-wrapper {
+  width: 252px;
+  height: 64px;
+}
+
+.sign-up .overlap-group {
+  position: relative;
+  width: 250px;
+  height: 64px;
+  background-color: #004f7c;
+  border-radius: 48px;
+}
+
+.sign-up .text-wrapper-4 {
+  position: absolute;
+  top: 20px;
+  left: 86px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+input{
+  border: 0px solid #ccc;
+  border-radius: 1px;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #004f7c;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+/* 调整 input 字段的宽度 */
+input[type="text"] {
+  padding-left: 100px;
+  width: 150%; /* 或其他适当的宽度 */
+  height: 40px; /* 或其他适当的高度 */
+  border: 0px solid #ccc;
+  border-radius: 1px;
+
+}
+
