@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
   </head>
   <body>
     <div class="sign-up">
@@ -12,7 +12,7 @@
           <div class="overlap">
             <div class="group">
               <div class="rectangle"></div>
-              <img class="image" src="img/image-1.png" />
+              <img class="image" src="{{ url_for('static', filename='img/image-1.png') }}" alt="Image-1" />
             </div>
             <div class="greeting">Know your next home</div>
             <div class="div">
@@ -21,10 +21,10 @@
                 <div class="group-3">
                   <div class="phone">
 
-                    <img class="eye-off" src="img/eye-off.png" />
+                    <img class="eye-off" src="{{ url_for('static', filename='img/eye-off.png') }}" alt="eye-off"  />
                     <div class="group-4">
                       <div class="text-wrapper-2">Phone</div>
-                      <img class="img" src="img/lock.png" />
+                      <img class="img" src="{{ url_for('static', filename='img/lock.png') }}" alt="lock"  />
                       <input type = "text" name = "phone" placeholder = "Phone" />
                     </div>
                   </div>
@@ -32,25 +32,25 @@
 
                     <div class="group-5">
                       <div class="text-wrapper-2">Email</div>
-                      <img class="img" src="img/mail.png" />
+                      <img class="img" src="{{ url_for('static', filename='img/mail.png') }}" alt="mail" />
                       <input type = "text" name = "email" placeholder = "Email" />
                     </div>
                   </div>
                   <div class="name">
 
                     <div class="group-6">
-                      <img class="img" src="img/avatar.png" />
+                      <img class="img" src="{{ url_for('static', filename='img/avatar.png') }}" alt="avatar"  />
                       <div class="text-wrapper-2">Name</div>
                       <input type="text" name = "name" placeholder="name"  >
                     </div>
                   </div>
                   <div class="price">
 
-                    <img class="eye-off" src="img/eye-off.png" />
+                    <img class="eye-off" src="{{ url_for('static', filename='img/eye-off.png') }}" alt="eye-off"  />
                     <div class="group-7">
 
                       <div class="text-wrapper-2">Price</div>
-                      <img class="img" src="img/lock.png" />
+                      <img class="img" src="{{ url_for('static', filename='img/eye-off') }}" alt="eye-off"  />
                       <input type="text" name = "price" placeholder="price"  >
                     </div>
                   </div>
